@@ -1,28 +1,14 @@
 {
-    "name": "pafnuty/laravel-fenom",
-    "description": "Fenom Template Engine for Laravel 5",
+    "name": "rostovboy/laravel-fenom",
+    "description": "Fenom Template Engine for Laravel 7",
     "keywords": ["laravel", "fenom", "template", "view"],
-    "authors": [
-        {
-            "name": "Max Kostjukevich",
-            "email": "support@maxicms.ru"
-        },
-        {
-            "name": "Pavel Belousov",
-            "email": "pafnuty@pafnuty.name"
-        },
-        {
-            "name": "Ivan Shalganov",
-            "email": "a.cobest@gmail.com"
-        }
-    ],
     "license": "MIT",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.1.0",
         "fenom/fenom": "2.*",
-        "illuminate/support": "5.*",
-        "illuminate/view": "5.*",
-        "illuminate/config": "5.*"
+        "illuminate/support": "7.*",
+        "illuminate/view": "7.*",
+        "illuminate/config": "7.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
@@ -31,7 +17,7 @@
 
     "autoload": {
         "psr-4": {
-            "Pafnuty\\Fenom\\": "src/Fenom"
+            "Rostovboy\\Fenom\\": "src/Fenom"
         }
     },
     "autoload-dev": {
