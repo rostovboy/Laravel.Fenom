@@ -1,6 +1,6 @@
 <?php
 
-	namespace Panfuty\Fenom\Console;
+	namespace Pafnuty\Fenom\Console;
 
 	use Fenom;
 	use Illuminate\Console\Command;

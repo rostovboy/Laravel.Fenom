@@ -17,7 +17,7 @@
 
     "autoload": {
         "psr-4": {
-            "Rostovboy\\Fenom\\": "src/Fenom"
+            "Pafnuty\\Fenom\\": "src/Fenom"
         }
     },
     "autoload-dev": {
